@@ -66,10 +66,6 @@ public class TNTbarrel : MonoBehaviour
 
         }
 
-        
-
-        
-
         yield return new WaitForSeconds(2);
         gameObject.SetActive(false);
     }
